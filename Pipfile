@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+umap-learn = "*"
+visdom = "*"
+librosa = ">=0.8.0"
+matplotlib = ">=3.3.0"
+numpy = "==1.19.4"
+scipy = ">=1.0.0"
+tqdm = "*"
+sounddevice = "*"
+soundfile = "*"
+inflect = "*"
+multiprocess = "*"
+numba = "*"
+webrtcvad = "*"
+Unidecode = "*"
+PyQt5 = "*"
+torch = "*"
+torchvision = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"
